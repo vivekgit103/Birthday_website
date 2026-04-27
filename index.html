@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Birthday, My Bestie 💖</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Nunito:wght@300;400;600;700&family=Dancing+Script:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== CANVAS LAYER ===== -->
+  <canvas id="canvas-layer"></canvas>
+
+  <!-- ===== CURSOR SPARKLE ===== -->
+  <div class="cursor-sparkle" id="cursorSparkle"></div>
+
+  <!-- ===== BACKGROUND FLOATERS ===== -->
+  <div class="bg-floaters" id="bgFloaters"></div>
+
+  <!-- ===== MODAL ===== -->
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal">
+      <span class="modal-emoji">💕</span>
+      <p class="modal-title">You are the <span>best thing</span></p>
+      <p class="modal-title" style="margin-bottom:10px">that ever happened to me</p>
+      <p class="modal-sub">Forever and always, bestie 🌸✨</p>
+      <button class="btn-close" onclick="closeModal()">Aww, love you too! 💖</button>
+    </div>
+  </div>
+
+  <!-- ========================
+       SECTION 1 · HERO
+  ========================= -->
+  <section id="hero">
+    <div class="hero-content">
+      <div class="hero-badge">✨ A special day for a special girl ✨</div>
+      <h1 class="hero-title">
+        Happy Birthday to My<br><span>Favorite Person 💖</span>
+      </h1>
+      <p class="hero-sub">"You make my world brighter just by being in it."</p>
+      <div class="hero-cake">🎂</div>
+      <div class="hero-scroll-hint">
+        <span>Scroll for more love</span>
+        <span class="scroll-arrow">↓</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================
+       SECTION 2 · MEMORIES
+  ========================= -->
+  <section id="memories">
+    <div class="section-header reveal">
+      <span class="section-label">📷 Photo Memories</span>
+      <h2 class="section-title">Moments I <em>cherish</em> forever</h2>
+      <div class="section-divider"><span>💗</span></div>
+    </div>
+
+    <div class="polaroid-grid">
+
+      <!-- PHOTO 1 — Replace 'photo1.jpg' in the CSS above with your image URL -->
+      <div class="polaroid reveal">
+        <div class="photo-frame">
+          <span class="photo-placeholder-icon">🌸</span>
+          <span class="photo-placeholder-text">Replace with your photo</span>
+        </div>
+        <p class="photo-caption">This moment = pure happiness 🥹💗</p>
+      </div>
+
+      <!-- PHOTO 2 -->
+      <div class="polaroid reveal">
+        <div class="photo-frame">
+          <span class="photo-placeholder-icon">✨</span>
+          <span class="photo-placeholder-text">Replace with your photo</span>
+        </div>
+        <p class="photo-caption">Your smile is my favorite thing ever ✨</p>
+      </div>
+
+      <!-- PHOTO 3 -->
+      <div class="polaroid reveal">
+        <div class="photo-frame">
+          <span class="photo-placeholder-icon">💞</span>
+          <span class="photo-placeholder-text">Replace with your photo</span>
+        </div>
+        <p class="photo-caption">Memories with you are my treasure 💞</p>
+      </div>
+
+      <!-- PHOTO 4 -->
+      <div class="polaroid reveal">
+        <div class="photo-frame">
+          <span class="photo-placeholder-icon">💫</span>
+          <span class="photo-placeholder-text">Replace with your photo</span>
+        </div>
+        <p class="photo-caption">Every second with you feels special 💫</p>
+      </div>
+
+      <!-- PHOTO 5 -->
+      <div class="polaroid reveal">
+        <div class="photo-frame">
+          <span class="photo-placeholder-icon">💕</span>
+          <span class="photo-placeholder-text">Replace with your photo</span>
+        </div>
+        <p class="photo-caption">We are the cutest duo forever 💕</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================
+       SECTION 3 · MESSAGE
+  ========================= -->
+  <section id="message">
+    <div class="message-card reveal">
+      <div class="message-card-glow"></div>
+      <p class="message-text">
+        <strong>Happy Birthday</strong> to the most special girl in my life.
+        You are not just my best friend — you are my safe place, my happiness,
+        and my favorite person. Your smile, your kindness, and your presence
+        make <strong>everything better</strong>. I'm so lucky to have you.
+        I hope your life is filled with love, laughter, and all the happiness
+        you truly deserve. 🌸
+      </p>
+      <p class="message-sig">— Always yours 💌</p>
+    </div>
+  </section>
+
+  <!-- ========================
+       SECTION 4 · WISHES
+  ========================= -->
+  <section id="wishes">
+    <div class="section-header reveal">
+      <span class="section-label">🌸 Birthday Wishes</span>
+      <h2 class="section-title">Sending you all the <em>love</em></h2>
+      <div class="section-divider"><span>💜</span></div>
+    </div>
+
+    <div class="wishes-grid">
+      <div class="wish-card reveal">
+        <span class="wish-icon">☀️</span>
+        <p class="wish-text">May your days be filled with giggles and sunshine ☀️</p>
+      </div>
+      <div class="wish-card reveal">
+        <span class="wish-icon">💕</span>
+        <p class="wish-text">May your heart always feel loved and cherished 💕</p>
+      </div>
+      <div class="wish-card reveal">
+        <span class="wish-icon">🌸</span>
+        <p class="wish-text">May all your sweetest dreams come true 🌸</p>
+      </div>
+      <div class="wish-card reveal">
+        <span class="wish-icon">✨</span>
+        <p class="wish-text">May you always stay this beautiful soul ✨</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================
+       SECTION 5 · SURPRISE
+  ========================= -->
+  <section id="surprise">
+
+    <!-- Decorative butterflies (created by JS too, but a few static ones) -->
+    <div class="butterfly" style="left:8%; top:25%; animation-duration:7s; animation-delay:0s;">🦋</div>
+    <div class="butterfly" style="right:10%; top:60%; animation-duration:9s; animation-delay:2s;">🦋</div>
+    <div class="butterfly" style="left:50%; top:15%; animation-duration:6s; animation-delay:4s; font-size:1.2rem;">🦋</div>
+
+    <p class="surprise-love-text reveal">I love you <span>endlessly,</span> bestie 💖</p>
+    <p class="surprise-sub reveal">…and that's a forever kind of thing 🌙✨</p>
+    <button class="btn-surprise reveal" onclick="triggerSurprise()">
+      Click for a Surprise 🎁
+    </button>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    Made with <span>💖</span> just for you &nbsp;|&nbsp; Happy Birthday, my forever bestie 🎂✨
+  </footer>
+  <script src="script.js"></script>
+
+</body>
+</html>
